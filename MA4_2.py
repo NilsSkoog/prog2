@@ -53,6 +53,8 @@ def main():
 	plt.ylabel("Time (s)")
 	plt.legend()
 	plt.savefig("Melker_GOAT.png")
+	print(numba_main(47))
+	print(cpp_main(47))
 
 if __name__ == '__main__':
 	main()
