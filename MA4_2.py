@@ -52,7 +52,7 @@ def main():
 	plt.xlabel("n")
 	plt.ylabel("Time (s)")
 	plt.legend()
-	plt.show()
+	plt.savefig("Melker_GOAT.png")
 
 if __name__ == '__main__':
 	main()
