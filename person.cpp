@@ -9,17 +9,17 @@ class Person{
 		int fib();
 	private:
 		int age;
-		int _fib(int)
+		int _fib(int);
 	};
  
 Person::fib(){
-	return  _fib(age)
+	return  _fib(age);
 }
 
 Person::_fib(int n){
 	if (n <= 1) 
         return n; 
-    return fib(n - 1) + fib(n - 2); 
+    return _fib(n - 1) + _fib(n - 2); 
 		} 
 
 Person::Person(int n){
