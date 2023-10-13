@@ -12,11 +12,11 @@ class Person{
 		int _fib(int);
 	};
  
-Person::fib(){
+int Person::fib(){
 	return  _fib(age);
 }
 
-Person::_fib(int n){
+int Person::_fib(int n){
 	if (n <= 1) 
         return n; 
     return _fib(n - 1) + _fib(n - 2); 
